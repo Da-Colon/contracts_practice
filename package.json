@@ -1,0 +1,22 @@
+{
+  "name": "contract-practice-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Da-Colon/contracts_practice.git"
+  },
+  "author": "David A. Colon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Da-Colon/contracts_practice/issues"
+  },
+  "homepage": "https://github.com/Da-Colon/contracts_practice#readme"
+}
