@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-contract Main {
+contract FirstContract {
   string name = 'hello';
   uint256 number = 500;
   bool isBool = true;
@@ -52,6 +52,7 @@ contract Main {
      * @return returns sum of given value and state variable
      */
   function addAndReturn(uint256 value) public view returns(uint) {
+    // creates new number from the sub of number state variable and given value
     uint256 newNumber = number + value;
     return newNumber;
   }
